@@ -17,7 +17,7 @@ bot = commands.Bot(
 
 
 @bot.command()
-async def dream(ctx, *, prompt):
+async def resim(ctx, *, prompt):
     """Generate an image from a text prompt using the stable-diffusion model"""
     msg = await ctx.send(f"“{prompt}”\n> Cevaplaniyor...")
 

@@ -11,7 +11,7 @@ intents.message_content = True
 
 bot = commands.Bot(
     command_prefix="!",
-    description="Runs models on Replicate!",
+    description="Deneysel Robotikci Discord kanali botu",
     intents=intents,
 )
 

@@ -26,5 +26,16 @@ async def dream(ctx, *, prompt):
 
     await msg.edit(content=f"“{prompt}”\n{image}")
 
+@bot.command()
+async def text(ctx, *, prompt):
+    """Generate an image from a text prompt using the stable-diffusion model"""
+    #msg = await ctx.send(f"“{prompt}”\n> Cevaplaniyor...")
+
+    #model = replicate.models.get("stability-ai/stable-diffusion")
+    #image = model.predict(prompt=prompt)[0]
+
+    #await msg.edit(content=f"“{prompt}”\n{image}")
+    #TODO Fill 
+    pass 
 
 bot.run(os.environ["DISCORD_TOKEN"])
